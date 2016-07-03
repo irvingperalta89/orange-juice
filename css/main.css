@@ -1,0 +1,228 @@
+body {
+	margin: 0;
+	padding: 0;
+   width: 100%;
+
+}
+
+nav {
+	height: 120px;
+	background-color: #FA7E04;
+}
+
+nav .logo p{
+	font-size: 50px;
+	margin: 0 100px;
+	padding-top: 15px;
+	width: 300px;
+	font-family: 'Poiret One', cursive;
+	color: #fff;
+	font-weight: normal;
+	
+}
+
+nav .logo p span.bold {
+	font-weight: bold;
+}
+
+nav .logo sup {
+	font-size: 18px;
+}
+
+ nav  ul {
+ 	position: absolute;
+ 	top: 50px;
+ 	right: 20px;
+ 	float: right;
+ 	list-style-type: none;
+ 	margin: 0 ;
+
+ }
+
+nav ul li {
+	display: inline;
+	padding: 0 20px;
+}
+
+nav ul li a {
+
+	text-decoration: none;
+	font-size: 16px;
+	color: white;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #FCD58C;
+}
+
+nav ul a:hover {
+	text-decoration: underline;
+}
+
+   /*SECTION*/
+
+ .main {
+ 	background-color: #F9F9F9;
+ 	height: 600px;
+ }
+   section .search {
+    float: right;
+   	position: relative;
+   	right: 35px;
+   	top: 10px;
+
+   }
+
+   .search input {
+   	height: 45px;
+   	border: 3px solid #ECECEC;
+   	color: #EDEDED;
+   	background-color: #F0F0F0;
+   }
+
+   .orange img {
+      max-width: 100%;
+   	float: left;
+   	position: relative;
+   	top: 150px;
+   	left: 50px;
+   }
+   .orange p {
+       width: 49.2905%;
+       max-width: 100%;
+   	 display: inline-block;
+   	 font-size: 50px;
+   	 font-family: 'Poiret One', cursive;
+   	 margin-left: 30px;
+   	 margin-top: 135px;
+   	 color: #F7CE69;
+   }
+
+   .orange p sup {
+   	font-size: 20px;
+   	font-weight: bold;
+   }
+
+   .orange p span {
+   	color: #FA8000;
+   	font-weight: bold;
+   }
+
+   .orange p span.webapp {
+   	color: #77CCC5;
+   	font-weight: bold;
+   }
+ 
+   .orange button {
+      width: 100%;
+   	background-color: #FE7E00;
+   	height: 45px;
+   	width: 200px;
+   	float: right;
+   	position: relative;
+   	right: 315px;
+   	margin-right: 50px;
+   	color: white;
+   	border-radius: 5px;
+
+   }
+
+   .orange a button:hover {
+   	cursor: pointer;
+   }
+
+   .orange a .viewcase {
+   	background-color:#77CCC5; 
+   }
+
+   footer {
+   	background-color:#77CCC5;
+   	height: 120px; 
+   }
+
+
+   /*========MEDIA QUERIES=========*/
+
+   /*=========SCREEN SIZE 380PX==========*/
+
+@media( max-width: 380px){
+
+nav .logo p{
+  
+   text-align: center;
+   margin: 0 auto;
+   width: 100%;
+}
+
+nav ul {
+   text-align: center;
+   margin: 0 auto;
+   margin-top: 30px;
+   padding: 0;
+   }
+   nav ul li a {
+      font-size: 14px;
+   }
+
+   .main {
+      height: 450px;
+   }
+
+.search input {
+   display: none;
+}
+
+.orange img {
+      width: 70%;
+      float: none;
+      position: relative;
+      top: 30px;
+      left: 60px;
+      
+   }
+.orange p {
+      width: 60%;
+      max-width: 100%;
+      margin: 30px 75px;
+      font-size: 30px;
+      float: none;
+     
+}
+
+ .orange button {
+   max-width: 100%;
+      width: 80%;
+      height: 30px;
+      width: 100px;
+      float: none;
+      position: relative;
+      left: 90px;
+      font-size: 12px;
+      top: -20px;
+   }
+
+  .orange button.viewcase {
+      display: none;
+   }
+}
+
+/*=====SCREEN SIZE 1080px=====*/
+
+@media(max-width: 1080px) {
+
+ .orange button {
+      width: 100%;
+      background-color: #FE7E00;
+      height: 45px;
+      width: 200px;
+      float: right;
+      position: relative;
+      right: 315px;
+      margin-right: 50px;
+      color: white;
+      border-radius: 5px;
+
+   }
+
+
+
+}
